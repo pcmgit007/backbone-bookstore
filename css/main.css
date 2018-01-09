@@ -1,0 +1,41 @@
+h1{   
+    text-align: left;     
+    font-size:20px;    
+ }
+ div ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+div ul a {
+    text-decoration: none;     
+}
+.header {
+    border-bottom: solid 1px #ccc;
+}
+#page-wrapper {
+    padding-top: 1em;
+}
+.about-card {
+    padding: 3em;
+}
+.contact-card{
+    padding: 1em;
+}
+.top-selling{
+    background-color: aqua;
+    margin-bottom: 5em;
+}
+.top-rentals{
+    background-color: lightcoral;
+}
+.top-visitors{
+    background-color: grey;
+}
+.new-arrivals{
+    background-color: lightsalmon;
+}
+.submitbutton{
+    position: relative;
+    left: 135px;
+}

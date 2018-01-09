@@ -1,0 +1,51 @@
+<h1>
+    <nav aria-label="breadcrumb" role="navigation">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+                <a href="#">Home</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page"> <%= title %></li>
+        </ol>
+    </nav>
+</h1>
+<div class="container">
+    <h2 align="center"><%= title %></h2>
+    <div class="card contact-card">
+        <div class="row justify-content-center">
+            <div class="col-8">
+                <form action="" name="userForm" id="contact-form" class="form-horizontal">
+                    <div class="form-group row">
+                        <label for="staticName" class="col-sm-2 col-form-label">Name</label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control input" id="staticName" name="staticName" required/>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-6">
+                            <input type="email" class="form-control input" id="email" value="email@example.com" name="=email">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="country" class="col-sm-2 col-form-label">Country</label>
+                        <div class="col-sm-6 selectContainer">
+                            <select class= "input form-control chosen-select" id="country-dropdown"> </select>                                    
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="staticQuery" class="col-sm-2 control-form-label">Query</label>
+                        <div class="col-sm-6">
+                            <textarea class="form-control input" id="staticQuery" rows="3" name="staticQuery" minlength="3" maxlength="100" required></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="submitbutton">
+                            <button type="submit" id="submitButton" class="btn btn-success">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
