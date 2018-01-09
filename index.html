@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./node_modules/chosen-js/chosen.min.css" />
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>Bookstore</h1>
+        <div class="row">
+            <div class="col-1 left-nav">
+                <select id="languageSelect" onchange="swicthLang(this.value)" style="display: none">
+                    <option value="en">English (United States)</option>
+                    <option value="fr">Francais (France)</option>
+                </select>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2 left-nav" style="border-right: 1px solid gray;">
+                <ul>
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#dashboard">Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="#aboutus">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#contactus">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-10">
+                <!--contents of different views are loaded in col-10-->
+                <section id="page-wrapper">
+                    <!--Page content -->
+
+                </section>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="./node_modules/requirejs/require.js" data-main="app.js"></script>
+</body>
+
+</html>
