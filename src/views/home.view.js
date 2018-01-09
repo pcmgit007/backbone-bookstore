@@ -13,9 +13,12 @@ define([
             this.render();
         },
         render: function() {
-            var data = {};
-            var template = _.template(homeTemplate, data);//create a template using underscore
-            this.$el.html(template);            
+            var data = {
+                title: geti18n('welcomeText'),
+                hometxt:geti18n('HomeTxt')
+            };
+            var template = _.template(homeTemplate);
+            this.$el.html(template(data));                      
         }
     });
 

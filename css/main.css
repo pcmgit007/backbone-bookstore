@@ -8,10 +8,12 @@ h1{
 }
    
 div ul a {
-    text-decoration: none;     
+    text-decoration: none;
+    padding : 1em;       
 }
 .header {
     border-bottom: solid 1px #ccc;
+    padding: 1em;
 }
 #page-wrapper {
     padding-top: 1em;
@@ -38,4 +40,8 @@ div ul a {
 .submitbutton{
     position: relative;
     left: 135px;
+}
+
+.col-2 left-nav{
+    border-right: 1px solid gray;    
 }

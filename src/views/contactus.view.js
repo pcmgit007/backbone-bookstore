@@ -62,7 +62,13 @@ define([
         title: 'test',
         render: function () {
             var data = {
-                title: geti18n('contactTxt')
+                title: geti18n('contactTxt'),
+                hometxt:geti18n('HomeTxt'),
+                nameTxt: geti18n('NameTxt'),
+                emailTxt: geti18n('EmailTxt'),
+                countryTxt: geti18n('CountryTxt'),
+                queryTxt: geti18n('QueryTxt'),
+                submitTxt: geti18n('SubmitTxt')
             };
             var template = _.template(contactusTemplate);
             this.$el.html(template(data));

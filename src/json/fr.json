@@ -1,9 +1,22 @@
 {
-  "welcomeText": "Bienvenue",  
+  "homeText": "maison",  
+  "welcomeText": "Bienvenue...!!!",  
   "bookstoreTxt": "Librairie",
   "HomeTxt": "Accueil",
   "dashboardTxt": "Tableau de bord",
+  "topsellingTxt":"Vente de texte",
+  "sellingText2": "Top Locations",
+  "sellingText3":"les meilleurs visiteurs",
+  "sellingText4":"Nouvelles Arrivées",
+  "textbook1": "anges et démons",
+  "textbook2": "Immortels de Meluha",
+  "textbook3": "Enfer",
   "aboutTxt": "� propos de nous",
-  "contactTxt": "Helloooo"
+  "contactTxt": "Contactez nous",
+  "NameTxt": "prénom",
+  "EmailTxt": "Email",
+  "CountryTxt": "Pays",
+  "QueryTxt": "Question",
+  "SubmitTxt": "soumettre"
 }
 

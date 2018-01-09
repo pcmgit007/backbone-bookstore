@@ -13,9 +13,19 @@ define([
             this.render();
         },
         render: function() {
-            var data = {};
-            var template = _.template(dashboardTemplate, data);//create a template using underscore
-            this.$el.html(template);
+            var data = {
+                title: geti18n('dashboardTxt'), 
+                topselling: geti18n('topsellingTxt'),
+                sellingText2: geti18n('sellingText2'),
+                sellingText3: geti18n('sellingText3'), 
+                sellingText4: geti18n('sellingText4'),                 
+                textbook1 : geti18n('textbook1'),
+                textbook2 : geti18n('textbook2'),
+                textbook3 : geti18n('textbook3'),
+                               
+            };
+            var template = _.template(dashboardTemplate);
+            this.$el.html(template(data));            
         }
     });
 

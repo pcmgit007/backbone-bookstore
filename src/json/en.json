@@ -1,8 +1,21 @@
 {
-  "welcomeText": "Welcome",  
+  "homeText": "Home",  
+  "welcomeText": "Welcome...!!!",  
   "bookstoreTxt": "BookStore",
   "HomeTxt": "Home",
   "dashboardTxt": "DashBoard",
+  "topsellingTxt":"Top Selling",
+  "sellingText2": "Top Rentals",
+  "sellingText3":"Top Visitors",
+  "sellingText4":"New Arrivals",
+  "textbook1": "Angels &Demons",
+  "textbook2": "Immortals of Meluha",
+  "textbook3": "Enfer",
   "aboutTxt": "About Us",
-  "contactTxt": "Contatc Us"
+  "contactTxt": "Contact Us",
+  "NameTxt": "Name",
+  "EmailTxt": "Email",
+  "CountryTxt": "Country",
+  "QueryTxt": "Query",
+  "SubmitTxt": "Submit" 
 }

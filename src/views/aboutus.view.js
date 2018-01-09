@@ -13,9 +13,12 @@ define([
             this.render();
         },
         render: function() {
-            var data = {};
-            var template = _.template(aboutusTemplate, data);
-            this.$el.html(template);
+            var data = {
+                title: geti18n('aboutTxt'),
+                hometxt:geti18n('HomeTxt')
+            };
+            var template = _.template(aboutusTemplate);
+            this.$el.html(template(data));            
         }
     });
 
